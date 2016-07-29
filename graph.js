@@ -6,7 +6,7 @@ var p_data
 var group_info=[]
 var rank_info=[]
 
-$.getJSON("./data_processing/data/super_data_4.json", function(data_in) {
+$.getJSON("./data_process/data/super_data_4.json", function(data_in) {
 
     p_data=data_in['papers'];
 
